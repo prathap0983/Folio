@@ -1,0 +1,17 @@
+{
+  "name": "prathap-portfolio",
+  "version": "1.0.0",
+  "description": "Premium Interactive Developer Portfolio",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx -y serve .",
+    "dev": "npx -y serve ."
+  },
+  "keywords": [
+    "portfolio",
+    "responsive",
+    "interactive"
+  ],
+  "author": "Prathap A",
+  "license": "ISC"
+}

@@ -1,0 +1,524 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prathap A - Creative Developer & Designer Portfolio. Crafting premium, interactive, and high-performance digital experiences.">
+  <meta name="keywords" content="Portfolio, Front-end Developer, UI/UX Designer, Creative Developer, Web Design, JavaScript, React">
+  <meta name="author" content="Prathap A">
+  
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Prathap A | Creative Developer & Designer">
+  <meta property="og:description" content="Crafting premium, interactive, and high-performance digital experiences.">
+  <meta property="og:image" content="assets/profile.jpg">
+  
+  <!-- Twitter -->
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:title" content="Prathap A | Creative Developer & Designer">
+  <meta property="twitter:description" content="Crafting premium, interactive, and high-performance digital experiences.">
+  <meta property="twitter:image" content="assets/profile.jpg">
+
+  <title>Prathap A | Creative Developer & Designer</title>
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Custom Mouse Follower -->
+  <div class="custom-cursor" id="custom-cursor"></div>
+  <div class="custom-cursor-follower" id="custom-cursor-follower"></div>
+
+  <!-- Scroll Progress Indicator -->
+  <div class="scroll-progress-container">
+    <div class="scroll-progress-bar" id="scroll-progress-bar"></div>
+  </div>
+
+  <!-- Header & Navigation -->
+  <header id="header">
+    <nav class="navbar glassmorphism">
+      <a href="#" class="logo">
+        PRATHAP A<span class="logo-dot"></span>
+      </a>
+      <div class="nav-links" id="nav-links">
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="nav-controls">
+        <button class="theme-toggle-btn" id="theme-toggle-btn" aria-label="Toggle Theme">
+          <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="5"></circle>
+            <line x1="12" y1="1" x2="12" y2="3"></line>
+            <line x1="12" y1="21" x2="12" y2="23"></line>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+            <line x1="1" y1="12" x2="3" y2="12"></line>
+            <line x1="21" y1="12" x2="23" y2="12"></line>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+          </svg>
+          <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Open Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+
+    <!-- Hero Section -->
+    <section class="hero-section section" id="hero">
+      <div class="container">
+        <div class="grid hero-grid">
+          <div class="hero-content reveal-left">
+            <div class="hero-badge">
+              <span class="hero-badge-pulse"></span>
+              Seeking Developer Internships
+            </div>
+            <h1 class="hero-title">
+              Building Modern <br>
+              <span class="gradient-text">Web Solutions</span>
+            </h1>
+            <p class="hero-desc">
+              I am an aspiring Software Developer and student at Loyola Institute of Technology and Science. I focus on building responsive, user-friendly, and functional web applications.
+            </p>
+            <div class="hero-buttons">
+              <a href="#projects" class="btn btn-primary">
+                View My Work
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                  <polyline points="12 5 19 12 12 19"></polyline>
+                </svg>
+              </a>
+              <a href="#contact" class="btn btn-secondary">Let's Connect</a>
+            </div>
+          </div>
+          <div class="hero-visual reveal-right">
+            <div class="hero-orb"></div>
+            <div class="hero-visual-card glassmorphism" id="tilt-card">
+              <img src="assets/profile.jpg" alt="Prathap A Profile Portrait">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section" id="about">
+      <div class="container">
+        <div class="grid about-grid">
+          <div class="about-image-wrapper reveal-left">
+            <div class="about-image-card">
+              <img src="assets/profile.jpg" alt="Prathap A Profile Portrait">
+            </div>
+          </div>
+          <div class="about-content reveal-right">
+            <div class="section-tag">About Me</div>
+            <h2 class="section-title">Aspiring Software Developer</h2>
+            <h3>Who I Am</h3>
+            <p>
+              An aspiring Software Developer and Freelance Video Editor passionate about creating impactful digital experiences. I am currently pursuing my studies at <strong>Loyola Institute of Technology and Science, Thovalai</strong>, while continuously enhancing my technical and creative skills.
+            </p>
+            <p>
+              As a developer, I specialize in building responsive, user-friendly, and modern web applications using technologies such as HTML, CSS, JavaScript, React.js, Next.js, Node.js, and MongoDB. I enjoy transforming ideas into functional and innovative software solutions.
+            </p>
+            <p>
+              Alongside software development, I work as a freelance video editor, creating high-quality edits, motion graphics, and visual effects using Adobe After Effects. This creative experience has strengthened my attention to detail, creativity, and ability to deliver engaging digital content.
+            </p>
+            <p>
+              I am currently seeking software development internships and entry-level opportunities to gain industry experience, collaborate with talented teams, and contribute to meaningful projects. My goal is to grow as a full-stack developer while continuing to expand my creative expertise.
+            </p>
+            
+            <div class="about-stats">
+              <div class="stat-card glassmorphism">
+                <div class="stat-number">Fresher</div>
+                <div class="stat-label">Experience</div>
+              </div>
+              <div class="stat-card glassmorphism">
+                <div class="stat-number">10+</div>
+                <div class="stat-label">Projects Completed</div>
+              </div>
+              <div class="stat-card glassmorphism">
+                <div class="stat-number">100%</div>
+                <div class="stat-label">Commitment</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section class="section" id="skills">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Expertise</div>
+          <h2 class="section-title">My Tech Stack</h2>
+          <p class="section-desc">Technologies and design frameworks I use to build premium digital products.</p>
+        </div>
+
+        <div class="skills-tabs reveal">
+          <button class="skills-tab-btn active" data-filter="all">All Tech</button>
+          <button class="skills-tab-btn" data-filter="frontend">Frontend</button>
+          <button class="skills-tab-btn" data-filter="backend">Backend & Tools</button>
+          <button class="skills-tab-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="grid skills-grid">
+          <!-- Skill: HTML5 -->
+          <div class="skill-card glassmorphism stagger-item" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <span class="skill-name">HTML5</span>
+          </div>
+
+          <!-- Skill: CSS3 -->
+          <div class="skill-card glassmorphism stagger-item" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path>
+              </svg>
+            </div>
+            <span class="skill-name">CSS3</span>
+          </div>
+
+          <!-- Skill: React -->
+          <div class="skill-card glassmorphism stagger-item" data-category="frontend">
+            <div class="skill-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                <ellipse cx="12" cy="12" rx="9" ry="3" transform="rotate(30 12 12)"></ellipse>
+                <ellipse cx="12" cy="12" rx="9" ry="3" transform="rotate(150 12 12)"></ellipse>
+              </svg>
+            </div>
+            <span class="skill-name">React.js</span>
+          </div>
+
+          <!-- Skill: Node.js -->
+          <div class="skill-card glassmorphism stagger-item" data-category="backend">
+            <div class="skill-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <span class="skill-name">Node.js</span>
+          </div>
+
+          <!-- Skill: After Effects -->
+          <div class="skill-card glassmorphism stagger-item" data-category="design">
+            <div class="skill-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                <line x1="9" y1="9" x2="15" y2="15"></line>
+                <line x1="15" y1="9" x2="9" y2="15"></line>
+              </svg>
+            </div>
+            <span class="skill-name">Adobe After Effects</span>
+          </div>
+
+          <!-- Skill: Photoshop -->
+          <div class="skill-card glassmorphism stagger-item" data-category="design">
+            <div class="skill-icon-wrapper">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M6.13 1L6 16a2 2 0 0 0 2 2h15"></path>
+                <path d="M1 6.13L16 6a2 2 0 0 1 2 2v15"></path>
+              </svg>
+            </div>
+            <span class="skill-name">Adobe Photoshop</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="section" id="projects">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Case Studies</div>
+          <h2 class="section-title">Selected Works</h2>
+          <p class="section-desc">Explore projects built with clean architectures and stunning responsive interfaces.</p>
+        </div>
+
+        <div class="projects-filter reveal">
+          <button class="projects-filter-btn active" data-filter="all">All Projects</button>
+          <button class="projects-filter-btn" data-filter="dev">Development</button>
+          <button class="projects-filter-btn" data-filter="design">Design</button>
+        </div>
+
+        <div class="grid projects-grid">
+          <!-- Spotify Clone Project -->
+          <div class="project-card glassmorphism stagger-item" data-category="dev">
+            <div class="project-img-wrapper">
+              <img src="assets/project_spotify.jpg" alt="Spotify Clone Application UI Screenshot">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="https://github.com/prathap0983/Spotify" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="View Github Code">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="https://spotify-taupe-eta.vercel.app/" target="_blank" rel="noopener noreferrer" class="project-link-icon" aria-label="Launch Live Site">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">Spotify Clone</h3>
+              <p class="project-desc">Built an AI-powered Spotify Clone with features such as playlist management, seamless music playback, and a responsive user interface, delivering a modern and engaging music streaming experience.</p>
+              <div class="project-tags">
+                <span class="project-tag">HTML5 Audio</span>
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">AI-Assisted</span>
+                <span class="project-tag">CSS Grid</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- VirtuAl Project -->
+          <div class="project-card glassmorphism stagger-item" data-category="dev">
+            <div class="project-img-wrapper">
+              <img src="assets/project_virtual.jpg" alt="VirtuAl AI Assistant Application UI Screenshot">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" class="project-link-icon" aria-label="View Github Code">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                    </svg>
+                  </a>
+                  <a href="#" class="project-link-icon" aria-label="Launch Live Site">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                      <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                      <polyline points="15 3 21 3 21 9"></polyline>
+                      <line x1="10" y1="14" x2="21" y2="3"></line>
+                    </svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div class="project-content">
+              <h3 class="project-title">VirtuAl: An Interactive Character-Based AI Assistant with Voice & Avatar Integration</h3>
+              <p class="project-desc">Experience next-generation AI interaction with a talking animated avatar, real-time voice recognition, natural language understanding, and intelligent responses — all in one platform.</p>
+              <div class="project-tags">
+                <span class="project-tag">React.js</span>
+                <span class="project-tag">Speech Recognition</span>
+                <span class="project-tag">AI Integration</span>
+                <span class="project-tag">3D Animations</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="section" id="experience">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Milestones</div>
+          <h2 class="section-title">My Journey</h2>
+          <p class="section-desc">A brief timeline of my professional achievements and work history.</p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Item 1 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-badge"></div>
+            <div class="timeline-card glassmorphism">
+              <div class="timeline-date">2022</div>
+              <h3 class="timeline-role">Undergraduate Studies</h3>
+              <div class="timeline-company">Loyola Institute of Technology and Science</div>
+              <p class="timeline-desc">
+                Joined Loyola Institute of Technology and Science to pursue undergraduate studies. During college years, developed a strong interest in technology, creativity, and digital innovation.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 2 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-badge"></div>
+            <div class="timeline-card glassmorphism">
+              <div class="timeline-date">2023</div>
+              <h3 class="timeline-role">Freelance Video Editor</h3>
+              <div class="timeline-company">Self-Employed / Digital Media</div>
+              <p class="timeline-desc">
+                Started working as a freelance video editor, collaborating with clients and creating engaging digital content. This experience helped enhance creativity, communication skills, and ability to deliver quality work within deadlines.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 3 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-badge"></div>
+            <div class="timeline-card glassmorphism">
+              <div class="timeline-date">2026</div>
+              <h3 class="timeline-role">Successfully Graduated</h3>
+              <div class="timeline-company">Loyola Institute of Technology and Science Thovalai</div>
+              <p class="timeline-desc">
+                Successfully completed graduation from Loyola Institute of Technology and Science. Throughout the academic journey, continuously explored web development and modern technologies, building projects and strengthening technical skills.
+              </p>
+            </div>
+          </div>
+
+          <!-- Timeline Item 4 -->
+          <div class="timeline-item reveal">
+            <div class="timeline-badge"></div>
+            <div class="timeline-card glassmorphism">
+              <div class="timeline-date">2026 (Fresher)</div>
+              <h3 class="timeline-role">Eager to Begin Career</h3>
+              <div class="timeline-company">Software Development Industry</div>
+              <p class="timeline-desc">
+                As a fresher in 2026, eager to begin professional career as a software developer, contribute to impactful projects, and continue learning and growing in the ever-evolving world of technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section" id="contact">
+      <div class="container">
+        <div class="section-header reveal">
+          <div class="section-tag">Get in Touch</div>
+          <h2 class="section-title">Let's Create Together</h2>
+          <p class="section-desc">Have an upcoming project, design wireframe, or role opening? Drop me a message!</p>
+        </div>
+
+        <div class="grid contact-grid">
+          <div class="contact-info reveal-left">
+            <!-- Card 1 -->
+            <div class="contact-card glassmorphism">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                  <polyline points="22,6 12,13 2,6"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Email</h4>
+                <p><a href="mailto:prathapsivam2004@gmail.com">prathapsivam2004@gmail.com</a></p>
+              </div>
+            </div>
+            <!-- Card 2 -->
+            <div class="contact-card glassmorphism">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                  <circle cx="12" cy="10" r="3"></circle>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Location</h4>
+                <p>Thoothukudi, India</p>
+              </div>
+            </div>
+            <!-- Card 3 -->
+            <div class="contact-card glassmorphism">
+              <div class="contact-icon">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+                  <polyline points="22 4 12 14.01 9 11.01"></polyline>
+                </svg>
+              </div>
+              <div class="contact-details">
+                <h4>Status</h4>
+                <p>Open for opportunities</p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact-form glassmorphism reveal-right" id="contact-form" autocomplete="off">
+            <div class="form-group">
+              <input type="text" id="name" class="form-control" placeholder=" " required autocomplete="name">
+              <label for="name">Your Name</label>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" class="form-control" placeholder=" " required autocomplete="email">
+              <label for="email">Email Address</label>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" class="form-control" placeholder=" " required>
+              <label for="subject">Subject</label>
+            </div>
+            <div class="form-group">
+              <textarea id="message" class="form-control" rows="5" placeholder=" " required></textarea>
+              <label for="message">Your Message</label>
+            </div>
+            <button type="submit" class="btn btn-primary btn-submit" id="submit-btn">
+              Send Message
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Toast Notification -->
+  <div class="toast" id="toast">
+    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="20 6 9 17 4 12"></polyline>
+    </svg>
+    <span id="toast-message">Message sent successfully!</span>
+  </div>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-content">
+      <div class="footer-logo">
+        PRATHAP A<span class="logo-dot"></span>
+      </div>
+      <p class="footer-copyright">&copy; 2026 Prathap A. Coded with attention to detail.</p>
+      <div class="footer-socials">
+        <a href="#" class="social-icon" aria-label="GitHub">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+          </svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="LinkedIn">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+            <rect x="2" y="9" width="4" height="12"></rect>
+            <circle cx="4" cy="4" r="2"></circle>
+          </svg>
+        </a>
+        <a href="#" class="social-icon" aria-label="Twitter">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="app.js"></script>
+</body>
+</html>
